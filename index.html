@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="refresh-icon">
+          <i class="fa fa-refresh clear" aria-hidden="true"></i>
+        </div>
+
+        <div class="dating">
+          <span>Today To Do</span>
+          <div class="Year" id="year"></div>
+          <div class="Day">
+            <div id="day"></div>
+            <div id="month"></div>
+            <div id="numeric"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-todo">
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        <input type="text" id="input" placeholder="Add to do" maxlength="20" />
+      </div>
+
+      <div class="content">
+        <div id="list">
+          <!-- adding here -->
+        </div>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
